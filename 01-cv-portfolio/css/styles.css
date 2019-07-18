@@ -88,7 +88,7 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin-bottom: 20px; display: block; background: #FFA804; }
+	margin-bottom: 20px; display: block; background: #1e90ff; }
 	
 .margin-t-10{ margin-top: 10px; }
 
