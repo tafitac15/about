@@ -220,7 +220,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+	box-shadow: 0 0 0 8px rgba(30,144,255, .4); background: #1E90FF; }
 	
 	
 /* ---------------------------------
