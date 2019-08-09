@@ -130,7 +130,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover;
-	z-index: 1;background-image: url(../images/background-1.jpg); }
+	z-index: 1;background-image: url(../images/mada.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0;
 	right: 0; background: rgba(0,0,0, .2); }
@@ -245,13 +245,15 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
 
-.radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500;
+.radial-progress .progressbar-text{ font-size: 0; font-weight: 500;
 	padding-bottom: 25px!important; color: #333!important; }
 
 .radial-progress .progressbar-text:after{ content:'%'; }
 
-.radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
+.radial-progress .progress-title{ position: absolute; top: 10%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+	.radial-progress .progress-tit{ position: absolute; top: 55%; left: 50%; width: 100%;
+		letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
 
 
 	/*---------------------
@@ -387,3 +389,21 @@ Contact information
 -----------------------*/
 
 .info{color:black;}
+
+
+/*---------------------
+Logo in the footer
+-----------------------*/
+#footer-logo {
+	width: 15%;
+	height: 15%;
+}
+
+/*---------------------
+Logo for the technology icon
+-----------------------*/
+#tech-logo {
+	width: 50%;
+	height: 50%;
+	text-align: center;
+}
